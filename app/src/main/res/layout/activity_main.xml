@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/ll_Btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lr_btn"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="114dp" />
+
+    <Button
+        android:id="@+id/grid_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grid_btn"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <Button
+        android:id="@+id/sg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sg_btn"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
